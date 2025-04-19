@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D26C00242DAA741C0020DC86 /* relocation */ = {
+		D26C00432DAA752E0020DC86 /* relocation */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = relocation;
 			sourceTree = "<group>";
@@ -32,8 +32,8 @@
 		D26C00192DAA741C0020DC86 = {
 			isa = PBXGroup;
 			children = (
-				D26C00242DAA741C0020DC86 /* relocation */,
 				D26C00232DAA741C0020DC86 /* Products */,
+				D26C00432DAA752E0020DC86 /* relocation */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D26C00242DAA741C0020DC86 /* relocation */,
+				D26C00432DAA752E0020DC86 /* relocation */,
 			);
 			name = relocation;
 			packageProductDependencies = (
@@ -252,6 +252,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"relocation/Preview Content\"";
+				DEVELOPMENT_TEAM = 59JT69G44K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,6 +281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"relocation/Preview Content\"";
+				DEVELOPMENT_TEAM = 59JT69G44K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

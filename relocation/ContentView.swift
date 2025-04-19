@@ -8,14 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isActive = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            if isActive {
+                SplashScreen()
+                    .transition(.opacity)
+                    .animation(.easeOut, value: isActive)
+            } else {
+                Login()
+            }
         }
-        .padding()
+        .edgesIgnoringSafeArea(.all)
+        .onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                withAnimation(.easeOut(duration: 0.5)) {
+                    self.isActive = false
+                }
+            }
+        }
     }
 }
 
